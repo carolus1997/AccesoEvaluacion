@@ -2,6 +2,8 @@
     <style>
         .voltage-button {
             position: relative;
+            display: inline-block;
+            /* Asegura que el contenedor se ajuste al tamaño del botón */
         }
 
         .voltage-button button {
@@ -14,6 +16,10 @@
             line-height: 1em;
             letter-spacing: 0.075em;
             transition: background 0.3s;
+            width: 100%;
+            /* Define un ancho específico si es necesario */
+            position: relative;
+            
         }
 
         .voltage-button button:hover {
